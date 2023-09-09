@@ -1,0 +1,28 @@
+.numberInput {
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  outline-style: none;
+  font-weight: 600;
+  border-color: #dedede;
+  height: 40px;
+  display: flex;
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .numberInput {
+    width: 320px;
+  }
+}
+
+.label {
+  display: block;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
